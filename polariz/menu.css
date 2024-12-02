@@ -1,0 +1,56 @@
+/* inicio do menu */
+
+header {
+    background-image: url(fundo-header\ \(1\).jpg);
+    background-size: cover;
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+
+header > ul {
+    display: flex;
+    margin-top: 1rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+header > ul > li {
+    margin: 0 20px;
+    margin-bottom: 2rem;
+
+}
+
+header > ul > li > a {
+    color: #f4f4f4;
+    border: solid 1px #f4f4f4;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > ul > li > a:hover {
+    color: #ffffff;
+    background-color: #d95d41;
+}
+
+.logo{
+
+    height: 20dvh;
+    width: 40dvh;
+    border-radius: 1rem;
+    margin: 2rem;
+    margin-top: 0;
+    background-image: url(logo-grande-2.png);
+    background-size: cover;
+
+
+}
+
+/* fim do menu */

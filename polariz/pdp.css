@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*
+{
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Open Sans";
+
+}
+
+::-webkit-scrollbar
+{
+
+  width: 0;
+  height: 0;;
+
+}
+
+.politica{
+    text-align: justify;
+    max-width: 600px;
+    font-family:'Open Sans';
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+h2, span, h1, h3, ul, p
+{
+
+  margin-bottom: 1rem;
+
+}
+
+span,p
+{
+
+  text-indent: 1rem;
+
+}
+
+.politica > li
+{
+
+  margin-bottom: 1rem;
+  text-indent: 1rem;
+
+}
+
+.titulo{
+    font-family: 'Anton';
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
