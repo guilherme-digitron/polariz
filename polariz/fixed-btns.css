@@ -25,7 +25,8 @@ html, body{
     height: 3rem;
     background-size: cover;
     text-decoration: none;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+
 
 }
 
@@ -41,22 +42,11 @@ html, body{
 
     }
 
-}
+    .topo
+    {
 
-@media (min-width: 760px)
-{
+        border-radius: 10px 0px 0px 10px;
 
-    .topo {
-        
-        border-radius: 10px;
-        margin-bottom: .5rem;
-    
     }
-    
-    
-    .contato-zap {
-        
-        border-radius: 10px;
-    
-    }
+
 }
