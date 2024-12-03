@@ -273,8 +273,9 @@ section p {
 }
 
 .portfolio-item img {
-    max-width: 100%;
     border-radius: 8px;
+    width: 100%;
+
 }
 
 /* form */
@@ -361,6 +362,17 @@ form{
         width: 100%;
         border-radius: 0;
 
+    }
+
+    .portfolio-item {
+        
+        width: 100%;
+
+    }
+
+    .portfolio-item img {
+        border-radius: 8px;
+        width: 100%;
     }
 
 }
