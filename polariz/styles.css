@@ -117,7 +117,9 @@ max-width: 1300px;
 }
 
 .card__img{
-    height: 280px;
+    height: 300px;
+    width: 300px;
+    
     transition: 0.3s ease-in-out;
     border-radius: 1.5rem;
 }
@@ -350,15 +352,14 @@ form{
     .comentario
     {
 
-        width: 100dvw;
+        width: 100%;
         border-radius: 0;
 
     }
 
     .portfolio-item {
         
-        width: 100dvw;
-        border-radius: 0;
+        width: 100%;
 
     }
 

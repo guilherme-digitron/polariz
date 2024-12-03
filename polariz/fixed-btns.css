@@ -1,17 +1,17 @@
-html, body{
+html, body {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
-.fixed-btns
-{
-
+.fixed-btns {
     position: fixed;
     bottom: 6rem;
     right: 3rem;
     width: 3rem;
     height: auto;
-    z-index: 1001;
-
+    z-index: 9999; /* Aumente para sobrepor elementos */
+    pointer-events: auto; /* Permitir interações com o botão */
 }
 
 .topo {
@@ -24,27 +24,14 @@ html, body{
     background-size: cover;
     text-decoration: none;
     border-radius: 10px;
-
-
 }
 
-
-
-@media (max-width: 759px)
-{
-
-    .fixed-btns
-    {
-
+@media (max-width: 759px) {
+    .fixed-btns {
         right: 0rem;
-
     }
 
-    .topo
-    {
-
+    .topo {
         border-radius: 10px 0px 0px 10px;
-
     }
-
 }
