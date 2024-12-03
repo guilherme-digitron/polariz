@@ -2,12 +2,14 @@ html, body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Desativa a rolagem lateral */
+    width: 100%;
 }
 
 .fixed-btns {
     position: fixed;
     bottom: 6rem;
-    right: 3rem;
+    right: 1rem;
     width: 3rem;
     height: auto;
     z-index: 9999; /* Aumente para sobrepor elementos */
@@ -28,7 +30,7 @@ html, body {
 
 @media (max-width: 759px) {
     .fixed-btns {
-        right: 0rem;
+        right: 0.5rem;
     }
 
     .topo {

@@ -43,6 +43,7 @@ body{
 
 }
 
+
 /* feedback */
 
 .b
@@ -368,4 +369,9 @@ form{
         width: 100%;
     }
 
+}
+
+.caixa-corpo, .corpo, .footer, .header {
+    max-width: 100%; /* Impede elementos de ultrapassarem a largura */
+    overflow-x: hidden; /* Força elementos a respeitarem os limites horizontais */
 }
