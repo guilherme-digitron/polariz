@@ -30,7 +30,7 @@ html, body {
 
 @media (max-width: 759px) {
     .fixed-btns {
-        right: 0.5rem;
+        right: 0rem;
     }
 
     .topo {
